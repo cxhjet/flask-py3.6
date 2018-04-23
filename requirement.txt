@@ -33,3 +33,5 @@ git+https://maxwin_ch@bitbucket.org/maxwin-inc/mwutils.git
 git+https://maxwin_ch@bitbucket.org/maxwin-inc/auth.git
 git+https://maxwin_ch@bitbucket.org/maxwin-inc/mwsdk.git
 git+https://maxwin_ch@bitbucket.org/maxwin-inc/mwpermission.git
+flask-babel
+dateparser
