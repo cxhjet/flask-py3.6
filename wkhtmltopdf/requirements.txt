@@ -1,4 +1,10 @@
+flask
+SQLAlchemy
+Flask-SQLAlchemy
+Flask-Excel
+pymysql
+requests
+pyaml
+pyexcel
 pdfkit
 pyexcel-xls
-excel
-flask_excel
