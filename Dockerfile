@@ -17,6 +17,8 @@ RUN   echo http://dl-cdn.alpinelinux.org/alpine/v3.3/main > /etc/apk/repositorie
         openssl-dev \
         pcre-dev \
         zlib-dev \
+      # python:3.6.4-alpine3.4中用于最新pymssql安装依赖
+      && pip install -y Cpython \
       && pip install -r /var/requirement.txt \
       && find /usr/local -depth \
                 \( \
